@@ -756,8 +756,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: influenza-infection-primary-care-involvement---primary/output
-  vpersonal-influenza-infection-primary-care---primary:
-    run: vpersonal-influenza-infection-primary-care---primary.cwl
+  personal-influenza-infection-primary-care---primary:
+    run: personal-influenza-infection-primary-care---primary.cwl
     out:
     - output
     in:
@@ -777,7 +777,7 @@ steps:
         source: inputModule71
       potentialCases:
         id: potentialCases
-        source: vpersonal-influenza-infection-primary-care---primary/output
+        source: personal-influenza-infection-primary-care---primary/output
 class: Workflow
 inputs:
   inputModule1:
